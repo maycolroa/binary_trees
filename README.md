@@ -6,72 +6,35 @@
 ## Description
 
 ```
-First step: Write a command interpreter to manage your AirBnB objects.
-This is the first step towards building your first full web application: the AirBnB clone. This first step is very important because you will use what you build during this project with all other following projects: HTML/CSS templating, database storage, API, front-end integration…
-
-Each task is linked and will help you to:
-
-put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of your future instances
-create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
-create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
-create the first abstracted storage engine of the project: File storage.
-create all unittests to validate all our classes and storage engine
+This proyect have diferents exercises with binay trees. binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple (L, S, R), where L and R are binary trees or the empty set and S is a singleton set containing the root.
 ```
 
-## Installation ##
-If you want to run the command interpreter follow the next steps:
+## Important Terms:
 
-- Clone the repository: git clone https://github.com/maycolroa/AirBnB_clone
+   Following are the important terms with respect to tree.
 
-2. Access AirBnB_clone directory: cd AirBnB_clone
+   * Path − Path refers to the sequence of nodes along the edges of a tree.
 
-3. Run: ./console.py
+   * Root − The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
 
-## Usage Examples ##
+   * Parent − Any node except the root node has one edge upward to a node called parent.
 
-## Interactive Mode ##
+   * Child − The node below a given node connected by its edge downward is called its child node.
 
-![carbon (2)](https://user-images.githubusercontent.com/85509333/157092726-aa890dd5-611c-4542-a17a-d904cf2a4568.png)
+   * Leaf − The node which does not have any child node is called the leaf node.
 
-![carbon (3)](https://user-images.githubusercontent.com/85509333/157093304-e885eebf-5faf-41e8-9a14-ce012e16f582.png)
+   * Subtree − Subtree represents the descendants of a node.
 
-## Non-Interactive Mode ##
+   * Visiting − Visiting refers to checking the value of a node when control is on the node.
 
-![carbon (6)](https://user-images.githubusercontent.com/85509333/157094747-6bfc0151-93d9-453a-a484-076d6befcf13.png)
+   * Traversing − Traversing means passing through nodes in a specific order.
 
-## console commands ##
-```
-- quit - Exit the program.
-- EOF - Exit the program.
-- help - Gives a little description of a command.
-- create - Creates a new instance.
-- show - Prints the string representation of an instance based on the class name and id.
-- detroy - Deletes an instance based on the class name and id.
-- all - Prints all string representation of all instances based or not on the class name.
-- update - Updates an instance based on the class name and id by adding or updating attribute.
-```
+   * Levels − Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
 
-## exercises. ##
+   * keys − Key represents a value of a node based on which a search operation is to be carried out for a node.
 
-```
-implementation and creation of AirBnB clone - The console. 
-
-the project has 10 exercises
-
-0. README, AUTHORS
-1. Be Pycodestyle compliant!
-2. Unittests
-3. BaseModel
-4. Create BaseModel from dictionary
-5. Store first object
-6. Console 0.0.1
-7. Console 0.1
-8. First User
-9. More classes!
-10. Console 1.0
-
-```
 ## Authors
 ```
-* Maycol David Roa [@maycolroa](https://github.com/maycolroa)
-* Pablo Osorio [@PabloOsorix](https://github.com/PabloOsorix)
+* Maycol David Roa [GitHub](https://github.com/maycolroa)
+* Diana Ayala [GitHub](https://github.com/dmac24)
+```
