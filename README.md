@@ -7,7 +7,9 @@
 
 This proyect have diferents exercises with binay trees. binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child. A recursive definition using just set theory notions is that a (non-empty) binary tree is a tuple (L, S, R), where L and R are binary trees or the empty set and S is a singleton set containing the root.
 
-![logo](https://www.tutorialspoint.com/data_structures_algorithms/images/binary_tree.jpg)
+<p align="center">
+  <img width="460" height="300" src="https://www.tutorialspoint.com/data_structures_algorithms/images/binary_tree.jpg">
+</p>
 
 ## Important Terms:
 
@@ -29,7 +31,7 @@ This proyect have diferents exercises with binay trees. binary tree is a tree da
 
       * Traversing − Traversing means passing through nodes in a specific order.
 
-      * Levels − Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at             level 2, and so on.
+      * Levels − Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, its grandchild is at level 2, and so on.
 
       * keys − Key represents a value of a node based on which a search operation is to be carried out for a node.
 
